@@ -8,22 +8,18 @@ jquery.inputmask version: <b id="jquery.inputmask-version">3.1.x</b>
 
 ### Installation
 
-Add
+Add the following to your `Gemfile`:
 
 ``` ruby
 gem 'jquery-inputmask-rails', github: 'carrot-financial/jquery-inputmask-rails'
 ```
 
-to your `Gemfile`
-
-and
+Add the following to your `app/assets/javascripts/application.js` or other js manifest file:
 
 ```javascript
 //= require inputmask
 //= require jquery.inputmask
 ```
-
-to your `app/assets/javascripts/application.js` or other js manifest file.
 
 Optional extensions (these are super helpful):
 
