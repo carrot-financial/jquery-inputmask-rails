@@ -1,15 +1,17 @@
 # jquery-inputmask-rails
 
-jquery-inputmask-rails integrates [jquery.inputmask](https://github.com/RobinHerbots/jquery.inputmask) with rails 3.1+ asset pipeline.
+This was forked from knapo and altered slightly to make it compatible with Rails 5.
 
-jquery.inputmask version: <b id="jquery.inputmask-version">3.1.64-118</b>
+jquery-inputmask-rails integrates [jquery.inputmask](https://github.com/RobinHerbots/jquery.inputmask) with Rails 5
+
+jquery.inputmask version: <b id="jquery.inputmask-version">3.1.x</b>
 
 ### Installation
 
 Add
 
 ``` ruby
-gem 'jquery-inputmask-rails', github: 'knapo/jquery-inputmask-rails'
+gem 'jquery-inputmask-rails', github: 'carrot-financial/jquery-inputmask-rails'
 ```
 
 to your `Gemfile`
@@ -23,7 +25,7 @@ and
 
 to your `app/assets/javascripts/application.js` or other js manifest file.
 
-Optional extensions:
+Optional extensions (these are super helpful):
 
 ```javascript
 //= require inputmask.extensions
